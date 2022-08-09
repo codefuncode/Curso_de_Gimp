@@ -1,0 +1,951 @@
+https://docs.gimp.org/2.10/es/
+
+
+Tabla de contenidos
+
+Prefacio
+
+    1. Autores y contribuyentes del manual de usuario de GIMP
+
+I. Primeros pasos
+
+    1. Introducción
+
+        1. Bienvenido al GIMP
+
+            1.1. Autores
+            1.2. El sistema de ayuda de GIMP
+            1.3. Propiedades y capacidades
+
+        2. ¿Qué hay nuevo en GIMP 2.10.18?
+
+    2. Ejecutando GIMP
+
+        1. Ejecución de GIMP
+
+            1.1. Plataformas conocidas
+            1.2. Idioma
+            1.3. Argumentos de la línea de comandos
+
+        2. Iniciar GIMP por primera vez
+
+            2.1. Para terminar...
+
+    3. Primeros pasos con Wilber
+
+        1. Conceptos básicos
+        2. Ventanas principales
+
+            2.1. La caja de herramientas
+            2.2. La ventana de la imagen
+            2.3. Diálogos y empotrables
+
+        3. Deshacer
+
+            3.1. Las acciones que no se pueden deshacer
+
+        4. Tareas comunes
+
+            4.1. Objetivo
+            4.2. Cambiar el tamaño de una imagen para la pantalla
+            4.3. Cambiar el tamaño de una imagen para imprimir
+            4.4. Comprimir imágenes
+            4.5. Recortar una imagen
+            4.6. Encontrar información sobre su imagen
+            4.7. Cambiar el modo
+            4.8. Voltear una imagen
+            4.9. Rotar una imagen
+            4.10. Separar un objeto de su fondo
+
+        5. Como dibujar líneas rectas
+
+            5.1. Objetivo
+            5.2. Ejemplos
+
+    4. Desatascarse
+
+        1. Desatascarse
+
+            1.1. Atascado
+            1.2. Causas comunes del bloqueo de GIMP
+
+II. ¿Cómo convertirse en un mago del GIMP?
+
+    5. Introducir imágenes al GIMP
+
+        1. Tipos de imágenes
+        2. Crear archivos nuevos
+        3. Abrir archivos
+
+            3.1. Abrir un archivo
+            3.2. Abrir lugar
+            3.3. Abrir reciente
+            3.4. Usar programas externos
+            3.5. Gestor de archivos
+            3.6. Arrastrar y soltar
+            3.7. Copiar y pegar
+            3.8. Navegador de imágenes
+
+    6. Obtener imágenes de GIMP
+
+        1. Archivos
+
+            1.1. Guardar / exportar imágenes
+            1.2. Formatos de archivo
+
+        2. Preparar sus imágenes para la web
+
+            2.1. Imágenes con una proporción de tamaño/calidad óptima
+            2.2. Reducir el tamaño del archivo un poco más
+            2.3. Guardar imágenes con transparencia
+
+    7. Pintar con GIMP
+
+        1. La selección
+
+            1.1. Difuminar
+            1.2. Hacer una selección parcialmente transparente
+
+        2. Crear y usar selecciones
+
+            2.1. Mover una selección
+            2.2. Añadir o sustraer selecciones
+
+        3. La máscara rápida
+
+            3.1. Generalidades
+            3.2. Propiedades
+
+        4. Usar la máscara rápida
+        5. Rutas
+
+            5.1. Creación de rutas
+            5.2. Propiedades de las rutas
+            5.3. Rutas y selecciones
+            5.4. Transformación de las rutas
+            5.5. Trazar una ruta
+            5.6. Rutas y texto
+            5.7. Rutas y archivos SVG
+
+        6. Pinceles
+        7. Añadir pinceles nuevos
+        8. La caja de diálogo GIH
+        9. Variar el tamaño del pincel
+
+            9.1. Como variar la altura de un pincel
+            9.2. Crear un pincel rápidamente
+
+        10. Degradados
+        11. Patrones
+        12. Paletas
+
+            12.1. Mapa de colores
+
+        13. Preajustes
+        14. Dibujar objetos sencillos
+
+            14.1. Dibujar una línea recta
+            14.2. Crear una forma básica
+
+    8. Combinar imágenes
+
+        1. Introducción a las capas
+
+            1.1. Propiedades de las capas
+
+        2. Modos de capa
+        3. Crear capas nuevas
+        4. Grupos de capas
+
+    9. Gestión del texto
+
+        1. Gestión del texto
+
+            1.1. Área de texto
+            1.2. Administrar capa de texto
+            1.3. Caja de herramientas de texto
+            1.4. Menú contextual de texto
+
+        2. Texto
+
+            2.1. Embellecer un texto
+            2.2. Añadir tipografías
+            2.3. Problemas con las tipografías
+
+    10. Mejorar fotografías
+
+        1. Trabajar con fotografías de cámaras digitales
+
+            1.1. Introducción
+            1.2. Mejorar la composición
+            1.3. Mejorar los colores
+            1.4. Ajustar la nitidez
+            1.5. Quitar objetos no deseados de una imagen
+            1.6. Guardar sus resultados
+
+    11. Gestión del color con GIMP
+
+        1. Gestión del color en GIMP
+
+            1.1. Problemas con el flujo de trabajo sin gestión del color
+            1.2. Introducción al flujo de trabajo con gestión del color
+
+    12. Enriquecer mi GIMP
+
+        1. Preferencias
+
+            1.1. Introducción
+            1.2. Recursos del sistema
+            1.3. Gestión del color
+            1.4. Image Import and Export
+            1.5. Opciones de herramienta
+            1.6. Preferencias de la imagen predeterminada
+            1.7. Rejilla de la imagen predeterminada
+            1.8. Interfaz
+            1.9. Tema
+            1.10. Tema
+            1.11. Caja de herramientas
+            1.12. Valores predeterminados del diálogo
+            1.13. Sistema de ayuda
+            1.14. Pantalla
+            1.15. Gestión de la ventana
+            1.16. Ventanas de imagen
+            1.17. Apariencia de la ventana de la imagen
+            1.18. Título de la ventana de la imagen y la barra de estado
+            1.19. Image Window Snapping Behavior
+            1.20. Dispositivos de entrada
+            1.21. Controladores de entrada
+            1.22. Carpetas
+            1.23. Carpetas de datos
+
+        2. Rejillas y guías
+
+            2.1. La rejilla de la imagen
+            2.2. Guías
+
+        3. Crear una rejilla
+        4. Cómo ajustar su caché de mosaico
+        5. Crear atajos de teclado para las funciones del menú
+        6. Personalizar la pantalla de inicio
+
+    13. Automatizar tareas en GIMP
+
+        1. Complementos
+
+            1.1. Introducción
+            1.2. Usar los complementos
+            1.3. Instalación de nuevos complementos
+            1.4. Escribir complementos
+
+        2. Uso de guiones Script-Fu
+
+            2.1. ¿Qué es Script-Fu?
+            2.2. Instalación de guiones Script-Fu
+            2.3. Qué hacer y qué no hacer
+            2.4. Diferentes tipos de Scripts-Fu
+            2.5. Guiones independientes
+            2.6. Scripts dependientes de la imagen
+
+        3. Un tutorial de Script-Fu
+
+            3.1. Conociendo el Scheme
+            3.2. Variables y funciones
+            3.3. Listas, listas y más listas
+            3.4. Su primer código de Script-Fu
+            3.5. Dar algo de sustancia a nuestro script
+            3.6. Extender el script «Text Box»
+            3.7. Su script y su trabajo
+
+III. Referencia de funciones
+
+    14. Herramientas
+
+        1. La caja de herramientas
+
+            1.1. Introducción
+            1.2. Iconos de herramienta
+            1.3. Áreas de indicaciones y de colores
+            1.4. Opciones de herramienta
+
+        2. Herramientas de selección
+
+            2.1. Características comunes
+            2.2. Selección rectangular
+            2.3. Selección elíptica
+            2.4. Selección libre (el lazo)
+            2.5. Selección difusa (varita mágica)
+            2.6. Seleccionar por color
+            2.7. Tijeras inteligentes
+            2.8. Selección del primer plano
+
+        3. Herramientas de pintura
+
+            3.1. Características comunes
+            3.2. Dinámicas
+            3.3. Herramientas de pincel (lápiz, pincel, aerógrafo)
+            3.4. Relleno de cubeta
+            3.5. Degradado
+            3.6. Lápiz
+            3.7. Pincel
+            3.8. Pincel MyPaint
+            3.9. Goma de borrar
+            3.10. Aerógrafo
+            3.11. Tinta
+            3.12. Clonar
+            3.13. Sanear
+            3.14. Clonar con perspectiva
+            3.15. Desenfocar/Enfocar
+            3.16. Emborronar
+            3.17. Blanquear/Ennegrecer
+
+        4. Herramientas de transformación
+
+            4.1. Características comunes
+            4.2. Alineación
+            4.3. Mover
+            4.4. Recortar
+            4.5. Rotar
+            4.6. Escalar
+            4.7. Inclinar
+            4.8. Perspectiva
+            4.9. Transformación 3D
+            4.10. Transformación unificada
+            4.11. Transformar tirador
+            4.12. Voltear
+            4.13. La herramienta de rejilla
+            4.14. Transformar deformación
+
+        5. Otras
+
+            5.1. Generalidades
+            5.2. Rutas
+            5.3. Recoge-color
+            5.4. Ampliación
+            5.5. Medida
+            5.6. Texto
+            5.7. Operación GEGL
+
+    15. Diálogos
+
+        1. Introducción a los diálogos
+        2. Diálogos relacionados con la estructura de la imagen
+
+            2.1. Diálogo de capas
+            2.2. Diálogo de canales
+            2.3. Diálogo de rutas
+            2.4. Diálogo Mapa de colores
+            2.5. Diálogo del histograma
+            2.6. Diálogo de navegación
+            2.7. Diálogo historial de deshacer
+
+        3. Diálogos relacionados con el contenido de la imagen
+
+            3.1. Diálogo color PP/SP
+            3.2. Diálogo de pinceles
+            3.3. Diálogo de “Patrones”
+            3.4. Diálogo de degradados
+            3.5. Diálogo de paletas
+            3.6. Etiquetado
+            3.7. Diálogo de tipografías
+
+        4. Diálogos relativos a la gestión de la imagen
+
+            4.1. Diálogo de búferes
+            4.2. Diálogo Imágenes
+            4.3. Diálogo «Histórico del documento»
+            4.4. Diálogo de plantillas
+
+        5. Otros diálogos
+
+            5.1. Diálogo de la herramienta de preajustes
+            5.2. Editor de la herramienta de preajustes
+            5.3. Diálogo de estado del dispositivo
+            5.4. Consola de errores
+            5.5. Panel
+            5.6. Guardar archivo
+            5.7. Exportar archivo
+            5.8. Diálogo de puntos de muestra
+            5.9. Diálogo del puntero
+            5.10. Diálogo de pintura simétrica
+
+    16. Menús
+
+        1. Introducción a los menús
+
+            1.1. La barra del menú de imagen
+            1.2. Menús contextuales
+            1.3. Submenús desmontables
+            1.4. Menús de pestaña
+
+        2. El menú “Archivo”
+
+            2.1. Generalidades
+            2.2. Nueva…
+            2.3. Crear
+            2.4. Abrir…
+            2.5. Abrir como capas…
+            2.6. Abrir ubicación…
+            2.7. Abrir reciente
+            2.8. Guardar
+            2.9. Guardar como…
+            2.10. Guardar una copia…
+            2.11. Revertir
+            2.12. Exportar…
+            2.13. Exportar como…
+            2.14. Crear plantilla…
+            2.15. Imprimir
+            2.16. Enviar por correo-e
+            2.17. Copiar la ubicación de la imagen
+            2.18. Mostrar en el gestor de archivos
+            2.19. Cerrar
+            2.20. Cerrar todo
+            2.21. Salir
+
+        3. El menú “Editar”
+
+            3.1. Entradas del menú “Editar”
+            3.2. Deshacer
+            3.3. Rehacer
+            3.4. Historial de deshacer
+            3.5. Cortar
+            3.6. Copiar
+            3.7. Copiar visible
+            3.8. Pegar
+            3.9. Pegar en la selección
+            3.10. Pegar en su lugar
+            3.11. Pegar en la selección en su lugar
+            3.12. Pegar como...
+            3.13. Búfer
+            3.14. Limpiar
+            3.15. Rellenar con el color de primer plano
+            3.16. Rellenar con el color de fondo
+            3.17. Rellenar con un patrón
+            3.18. Rellenar contorno de la selección
+            3.19. Rellenar con una ruta
+            3.20. Trazar la selección
+            3.21. Trazar ruta
+            3.22. El comando de “Preferencias”
+            3.23. Atajos de teclado
+            3.24. Módulos
+            3.25. Unidades
+
+        4. El menú “Seleccionar”
+
+            4.1. Introducción al menú “Seleccionar”
+            4.2. Selecccionar todo
+            4.3. Ninguno
+            4.4. Invertir
+            4.5. Flotante
+            4.6. Por color
+            4.7. A partir de una ruta
+            4.8. Editor de selección
+            4.9. Difuminado
+            4.10. Enfocar
+            4.11. Encoger
+            4.12. Agrandar
+            4.13. Borde
+            4.14. Eliminar agujeros
+            4.15. Distorsión
+            4.16. Rectángulo redondeado
+            4.17. Activar máscara rápida
+            4.18. Guardar en canal
+            4.19. A la ruta
+
+        5. El menú “Ver”
+
+            5.1. Introducción al menú “Ver”
+            5.2. Vista nueva
+            5.3. Mostrar todas
+            5.4. Punto por punto
+            5.5. Ampliación
+            5.6. Voltear y rotar (0°)
+            5.7. Ajustar encogiendo
+            5.8. Pantalla completa
+            5.9. Ventana de navegación
+            5.10. Mostrar filtros
+            5.11. Gestión del color
+            5.12. Mostrar selección
+            5.13. Mostrar el límite de la capa
+            5.14. Mostrar guías
+            5.15. Mostrar la rejilla
+            5.16. Mostrar los puntos de muestra
+            5.17. Ajustar a las guías
+            5.18. Ajustar a la rejilla
+            5.19. Ajustar al lienzo
+            5.20. Ajustar a la ruta activa
+            5.21. Color de relleno
+            5.22. Mostrar la barra de menú
+            5.23. Mostrar las reglas
+            5.24. Mostrar las barras de desplazamiento
+            5.25. Mostrar la barra de estado
+
+        6. El menú “Imagen”
+
+            6.1. Generalidades
+            6.2. Duplicar
+            6.3. Modo
+            6.4. Modo RGB
+            6.5. Modo a escala de grises
+            6.6. Modo indexado
+            6.7. Precisión
+            6.8. Gestión del color
+            6.9. Activar gestión del color
+            6.10. Asignar perfil de color
+            6.11. Convertir a perfil de color
+            6.12. Descartar perfil de color
+            6.13. Guardar el perfil de color en el archivo
+            6.14. Transformar
+            6.15. Voltear horizontalmente; voltear verticalmente
+            6.16. Rotación
+            6.17. Tamaño del lienzo
+            6.18. Ajustar lienzo a las capas
+            6.19. Ajustar lienzo a la selección
+            6.20. Tamaño de la impresión
+            6.21. Escalar la imagen
+            6.22. Recortar la imagen
+            6.23. Slice Using Guides
+            6.24. Recorte Zealous
+            6.25. Combinar las capas visibles
+            6.26. Aplanar la imagen
+            6.27. Alinear capas visibles…
+            6.28. Guías
+            6.29. Guía nueva
+            6.30. Guía nueva (por porcentaje)
+            6.31. Guías nuevas desde selección
+            6.32. Quitar todas las guías
+            6.33. Configurar la rejilla…
+            6.34. Propiedades de la imagen
+            6.35. Metadatos
+            6.36. Visor de metadatos
+            6.37. Editor de metadatos
+
+        7. El menú “Capa”
+
+            7.1. Introducción al menú “Capa”
+            7.2. Capa nueva
+            7.3. Grupo de capas nuevo
+            7.4. Nueva a partir de lo visible
+            7.5. Duplicar la capa
+            7.6. Anclar la capa
+            7.7. Combinar hacia abajo
+            7.8. Eliminar la capa
+            7.9. Los comandos de texto del menú «Capa»
+            7.10. Descartar información de texto
+            7.11. El submenú “Pila”
+            7.12. Seleccionar la capa anterior
+            7.13. Seleccionar la capa siguiente
+            7.14. Seleccionar la capa superior
+            7.15. Seleccionar la capa inferior
+            7.16. Elevar capa
+            7.17. Bajar capa
+            7.18. Capa a la cima
+            7.19. Capa al fondo
+            7.20. El comando “Invertir el orden de capa”
+            7.21. El submenú “Máscara”
+            7.22. Añadir máscara de capa
+            7.23. Aplicar máscara de capa
+            7.24. Eliminar máscara de capa
+            7.25. Mostrar máscara de capa
+            7.26. Editar máscara de capa
+            7.27. Desactivar máscara de capa
+            7.28. Máscara a selección
+            7.29. Máscara a selección
+            7.30. Sustraer máscara de capa de la selección
+            7.31. Intersectar con selección
+            7.32. El submenú “Transparencia” del menú “Capa”
+            7.33. Añadir canal alfa
+            7.34. Quitar el canal alfa
+            7.35. Color a alfa
+            7.36. Semiaplanar
+            7.37. Umbral alfa
+            7.38. Alfa a selección
+            7.39. Añadir canal alfa a selección
+            7.40. Sustraer de selección
+            7.41. Intersectar canal alfa con la selección
+            7.42. El submenú “Transformar”
+            7.43. Voltear horizontalmente
+            7.44. Voltear verticalmente
+            7.45. Rotar 90° en sentido horario
+            7.46. Rotar 90° en sentido antihorario
+            7.47. Rotar 180°
+            7.48. Rotación arbitraria
+            7.49. Desplazamiento
+            7.50. Tamaño del borde de la capa
+            7.51. Capa a tamaño de la imagen
+            7.52. Escalar capa
+            7.53. Recortar la capa
+
+        8. El menú “Colores”
+
+            8.1. Introducción al menú “Colores”
+            8.2. Balance de color
+            8.3. Temperatura del color
+            8.4. Hue Chroma
+            8.5. Tono y saturación
+            8.6. Saturación
+            8.7. Exposición
+            8.8. Sombras-Resaltados
+            8.9. Brillo-Contraste
+            8.10. Niveles
+            8.11. Curvas
+            8.12. Invertir
+            8.13. Inversión lineal
+            8.14. Inversión del valor
+            8.15. El submenú “Auto”
+            8.16. Ecualizar
+            8.17. Balance de blancos
+            8.18. Estirar el contraste
+            8.19. Estirar HSV
+            8.20. Realzar color
+            8.21. Realzar color (heredado)
+            8.22. El submenú “Componentes”
+            8.23. Mezclador de canales
+            8.24. Componer
+            8.25. Extraer componente
+            8.26. Mezclador mono
+            8.27. Descomponer
+            8.28. Recomponer
+            8.29. Color a gris
+            8.30. Desaturar
+            8.31. Sepia
+            8.32. El submenú “Mapa”
+            8.33. Reordenar el mapa de colores
+            8.34. Establecer el mapa de colores
+            8.35. Mapa alienígena
+            8.36. Intercambio de color
+            8.37. Rotar los colores
+            8.38. Mapa de degradado
+            8.39. Mapa de paleta
+            8.40. Colorear desde muestra
+            8.41. Fattal y otros, 2002
+            8.42. Mantiuk 2006
+            8.43. Reinhard 2005
+            8.44. Estrés
+            8.45. Retinex
+            8.46. El submenú “Info”
+            8.47. Histograma
+            8.48. Promedio del borde
+            8.49. Análisis del cubo de color
+            8.50. Exportar histograma
+            8.51. Suavizar paleta
+            8.52. Umbral
+            8.53. Colorear
+            8.54. Posterizar
+            8.55. Color a alfa…
+            8.56. Entramado
+            8.57. Cortar RGB
+            8.58. Caliente…
+
+        9. El menú “Herramientas”
+
+            9.1. Introducción al menú “Herramientas”
+
+        10. El menú “Filtros”
+
+            10.1. Introducción al menú “Filtros”
+            10.2. Repetir el último
+            10.3. Volver a mostrar el último
+            10.4. Reiniciar todos los filtros
+            10.5. El submenú “Python-Fu”
+            10.6. El submenú “Script-Fu”
+
+        11. Menú “Ventanas”
+        12. El menú “Ayuda”
+
+            12.1. Introducción al menú “Ayuda”
+            12.2. Ayuda
+            12.3. Ayuda contextual
+            12.4. Consejo del día
+            12.5. Acerca de
+            12.6. Visor de complementos
+            12.7. El visor de procedimientos
+            12.8. GIMP en línea
+
+    17. Filtros
+
+        1. Introducción
+        2. Características comunes
+        3. Filtros de desenfoque
+
+            3.1. Introducción
+            3.2. Desenfoque gaussiano
+            3.3. Desenfoque de curvatura media
+            3.4. Desenfoque de mediana
+            3.5. Pixelizar
+            3.6. Desenfoque gaussiano selectivo
+            3.7. Desenfoque de movimiento circular
+            3.8. Desenfoque de movimiento lineal
+            3.9. Desenfoque de movimiento de ampliación
+            3.10. Desenfoque enlosable
+
+        4. Filtros de realzar
+
+            4.1. Introducción
+            4.2. Antialias
+            4.3. Desentrelazar
+            4.4. Paso alto
+            4.5. Reducción de ruido
+            4.6. Quitar ojos rojos
+            4.7. Simétrica del vecino más cercano
+            4.8. Enfocar (Desenfocar máscara)
+            4.9. Desparasitar
+            4.10. Quitar bandas
+            4.11. Filtro NL
+            4.12. Descomposición en ondículas
+
+        5. Filtros de distorsiones
+
+            5.1. Introducción
+            5.2. Aplicar lente
+            5.3. Repujado
+            5.4. Grabado
+            5.5. Distorsión de lente
+            5.6. Mosaico
+            5.7. Coordenadas polares
+            5.8. Ondular
+            5.9. Desplazamiento
+            5.10. Dar forma de esfera
+            5.11. Propagar valor
+            5.12. Vídeo
+            5.13. Ondas
+            5.14. Remolino y aspiración
+            5.15. Viento
+            5.16. Doblar según curva
+            5.17. Repujado (heredado)
+            5.18. Papel de periódico
+            5.19. Página doblada
+
+        6. Filtro de luces y sombras
+
+            6.1. Introducción
+            6.2. Supernova
+            6.3. Destello de lente
+            6.4. Destello con degradado
+            6.5. Efectos de iluminación
+            6.6. Moteado
+            6.7. Sombra base
+            6.8. Sombra larga
+            6.9. Viñeta
+            6.10. _Sombra arrojada (heredado)
+            6.11. Perspectiva
+            6.12. Efecto Xach
+
+        7. Filtros de ruido
+
+            7.1. Introducción
+            7.2. Ruido lch CIE
+            7.3. Ruido HSV
+            7.4. Lanzar
+            7.5. Escoger
+            7.6. Ruido RGB
+            7.7. Manchar
+            7.8. Esparcir
+
+        8. Filtros de detectar bordes
+
+            8.1. Introducción
+            8.2. Diferencia de Gaussianas
+            8.3. Arista
+            8.4. Laplace
+            8.5. Neón
+            8.6. Sobel
+            8.7. Degradado de imagen
+
+        9. Filtros genéricos
+
+            9.1. Introducción
+            9.2. Matriz de convolución
+            9.3. Mapa de distancias
+            9.4. Gráfico GEGL
+            9.5. Mapa normal
+            9.6. Dilatar
+            9.7. Erosionar
+
+        10. Filtros de combinar
+
+            10.1. Introducción
+            10.2. Mezcla con profundidad
+            10.3. Película
+
+        11. Filtros artísticos
+
+            11.1. Introducción
+            11.2. Aplicar lienzo
+            11.3. Viñeta
+            11.4. Cubismo
+            11.5. Mosaico de cristal
+            11.6. Pintura al óleo
+            11.7. Fotocopia
+            11.8. Simple Linear Iterative Clustering (SLIC)
+            11.9. Brillo suave
+            11.10. Píxeles de agua
+            11.11. Viñeta (heredado)
+            11.12. Entelar
+            11.13. GIMPresionista
+            11.14. Pintura al óleo (heredado)
+            11.15. Depredador
+            11.16. Brillo suave (heredado)
+            11.17. Van Gogh (LIC)
+            11.18. Tejido
+
+        12. Filtros de decoración
+
+            12.1. Introducción
+            12.2. Añadir bisel
+            12.3. Añadir borde
+            12.4. Manchas de café
+            12.5. Niebla
+            12.6. Difuminar borde
+            12.7. Foto antigua
+            12.8. Esquinas redondeadas
+            12.9. Diapositiva
+            12.10. Esculpido troquelado
+            12.11. Cromado troquelado
+
+        13. Filtros de mapa
+
+            13.1. Introducción
+            13.2. Mapa de relieve
+            13.3. Desplazar
+            13.4. Traza Fractal
+            13.5. Espejismo
+            13.6. Planeta pequeño
+            13.7. Proyección panorámica
+            13.8. Transformación recursiva
+            13.9. Enlosado de papel
+            13.10. Crear sin costuras
+            13.11. Traza Fractal (heredado)
+            13.12. Mapear objeto
+            13.13. Enlosar
+
+        14. Filtros de renderizado
+
+            14.1. Introducción
+            14.2. Llama
+            14.3. Explorador de fractales
+            14.4. Fractal IFS
+            14.5. Ruido celular
+            14.6. Ruido de Perlin
+            14.7. Plasma
+            14.8. Ruido simplex
+            14.9. Ruido sólido
+            14.10. Nubes de diferencia
+            14.11. Matriz de Bayer
+            14.12. Tablero de ajedrez
+            14.13. Patrones de difracción
+            14.14. Rejilla
+            14.15. Laberinto
+            14.16. Seno
+            14.17. Tablero de ajedrez (heredado)
+            14.18. Explorador CML
+            14.19. Rejilla (heredado)
+            14.20. Puzle
+            14.21. Qbista
+            14.22. Circuito
+            14.23. Gfig
+            14.24. Lava
+            14.25. Nova de líneas
+            14.26. Diseñador de esferas
+            14.27. Espirógrafo de GIMP
+
+        15. Filtros web
+
+            15.1. Introducción
+            15.2. Mapa de imagen
+            15.3. Semiaplanar
+            15.4. Trocear
+
+        16. Filtros de animación
+
+            16.1. Introducción
+            16.2. Fundir
+            16.3. Quemado
+            16.4. Ondular
+            16.5. Globo giratorio
+            16.6. Ondas
+            16.7. Optimizar
+            16.8. Reproducción
+
+I. Teclas de Referencia
+
+    Archivo — Tecla de referencia para el menú Archivo
+    Editar — Tecla de referencia para el menú Editar
+    Seleccionar — Tecla de referencia para el menú Seleccionar
+    Vista — Tecla de referencia para el menú Vista
+    Imagen — Key reference for Image menu
+    Capas — Tecla de referencia para el menú Capas
+    Herramientas — Tecla de referencia para el menú Herramientas
+    Filtros — Tecla de referencia para el menú Filtros
+    Ventanas — Key reference for Windows menu
+    Ayuda — Tecla de referencia para el menú Ayuda
+    Herramienta de ampliación — Tecla de referencia para la Herramienta de ampliación
+
+Glosario
+Bibliografía
+A. Historia de GIMP
+
+    1. El principio
+    2. Los primeros días de GIMP
+    3. El único que cambió el mundo
+    4. Versión 2.0
+    5. ¿Qué hay nuevo en GIMP 2.2?
+    6. ¿Qué hay nuevo en GIMP 2.4?
+    7. ¿Qué hay nuevo en GIMP 2.6?
+    8. ¿Qué hay nuevo en GIMP 2.8?
+    9. What's new in GIMP 2.10?
+
+B. Informar de errores y solicitar mejoras
+
+    1. Asegurarse de que es un error
+    2. Informar del error
+
+C. Cómo contribuir
+
+    1. Prerrequisitos
+
+        1.1. Únase a nuestra lista de correos
+        1.2. Crear una copia de trabajo local del código
+        1.3. Instalando su «sandbox»
+        1.4. La carpeta gimp-help
+
+    2. Flujo de trabajo
+
+        2.1. Escribir
+        2.2. Validar
+        2.3. Imágenes
+        2.4. Crear archivos HTML
+        2.5. Enviar sus archivos
+
+    3. Anexos
+    4. Trabajando en Windows
+
+        4.1. Adaptación de Cygwin para usar con las herramientas de documentación de GIMP
+
+D. Asignación de tono y recuperación de sombra usando «Colores/Exposición» de GIMP
+
+    1. «Colores/Exposición» en coma flotante de GIMP de alta profundidad de bits: mucho mejor que las curvas para aclarar las sombras y los tonos medios de una imagen sin eliminar los reflejos
+    2. Un ejemplo paso a paso que muestra cómo recuperar información de la sombra utilizando «Colores/Exposición» de coma flotante de GIMP de alta profundidad de bits
+    3. Notas de uso
+    4. Conclusión
+
+E. Licencia de documentación libre de GNU
+
+    1. PREÁMBULO
+    2. APLICACIÓN y DEFINICIONES
+    3. COPIA LITERAL
+    4. COPIADO EN CANTIDAD
+    5. MODIFICACIONES
+    6. COMBINACIÓN DE DOCUMENTOS
+    7. COLECCIONES DE DOCUMENTOS
+    8. AGREGACIÓN CON TRABAJOS INDEPENDIENTES
+    9. TRADUCCIÓN
+    10. TERMINACIÓN
+    11. REVISIONES FUTURAS DE ESTA LICENCIA
+    12. ADENDA: cómo usar esta licencia en sus documentos
+
+F. Eeek! Falta un archivo de la ayuda
+Índice
+
+  	  	 Siguiente
+  	  	 Prefacio
+Informe de un error en Bugzilla

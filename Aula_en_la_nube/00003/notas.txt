@@ -1,0 +1,6 @@
+notas.txt
+
+CTR + rueda de raton alejar y acercar
+
+Shift + clik izquerdo
+	`TRazar lineas rectas con el pincel. 
